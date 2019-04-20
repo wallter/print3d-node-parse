@@ -14,6 +14,9 @@ $ mongodb-runner start
 $ npm start
 ```
 
+**Dashboard**: http://0.0.0.0:4040 <br>
+**Server**: http://localhost:1337/parse
+
 ## MongoDB Install Mac OSX via homebrew
 ```
 $ brew update
