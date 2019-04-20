@@ -14,6 +14,8 @@ mongodb-runner start &
 npm start
 ```
 
+*There will be warnings in the console, but the [dashboard](http://localhost:4040/dashboard) is functional.
+
 **Dashboard**: http://localhost:4040/dashboard <br>
 **Server**: http://localhost:4040/parse
 
