@@ -16,8 +16,14 @@ npm start
 
 *There will be warnings in the console, but the [dashboard](http://localhost:4040/dashboard) is functional.
 
-**Dashboard**: http://localhost:4040/dashboard <br>
-**Server**: http://localhost:4040/parse
+**Dashboard**: http://localhost:4040/dashboard/login
+
+> **Username**: `admin` <br/>
+> **Password**: `admin`
+
+**Parse Server**: http://localhost:1337/parse
+
+
 
 ## MongoDB Install Mac OSX via homebrew
 ```sh
@@ -82,3 +88,13 @@ MongoDB Runner needs to be running to provide Mo
 ```sh
 $ mongodb-runner start &
 ```
+
+### Login
+Login at:
+
+http://localhost:4040/dashboard/login
+
+> **Username**: `admin` <br/>
+> **Password**: `admin`
+
+Change in `config/parse.config.js (.users)`
