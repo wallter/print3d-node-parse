@@ -1,0 +1,13 @@
+{
+  "name": "print3d",
+  "description": "parse-server for Print3D",
+  "scripts": {
+    "dev": "npm run parse-server & npm run parse-dashboard",
+    "start": "npm run parse-server & npm run parse-dashboard",
+    "parse-server": "parse-server config.json",
+    "parse-dashboard": "parse-dashboard --config parse-dashboard-config.json"
+  },
+  "dependencies": {
+    "parse-server": "^2.0.0"
+  }
+}
