@@ -14,8 +14,8 @@ mongodb-runner start &
 npm start
 ```
 
-**Dashboard**: http://0.0.0.0:4040 <br>
-**Server**: http://localhost:1337/parse
+**Dashboard**: http://localhost:4040/dashboard <br>
+**Server**: http://localhost:4040/parse
 
 ## MongoDB Install Mac OSX via homebrew
 ```sh
@@ -76,7 +76,7 @@ $ npm install -g parse-server mongodb-runner
 ```
 
 ### Start mongo-runner
+MongoDB Runner needs to be running to provide Mo
 ```sh
-$ npm run mongodb-runner
-$ npm start
+$ mongodb-runner start &
 ```
