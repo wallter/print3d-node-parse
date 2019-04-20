@@ -1,4 +1,4 @@
-# [Node Parse](http://parseplatform.org) [Server](https://github.com/parse-community/parse-server) / [Dashboard](https://github.com/parse-community/parse-dashboard)
+# [Node Parse](http://parseplatform.org): [Server](https://github.com/parse-community/parse-server) + [Dashboard](https://github.com/parse-community/parse-dashboard)
 ### Assembled (code to come soon) by Tyler Wall
 
 ---
@@ -8,17 +8,17 @@
 
 ## QuickStart
 
-```
-$ npm install -g parse-server mongodb-runner
-$ mongodb-runner start
-$ npm start
+```sh
+npm install -g parse-server mongodb-runner
+mongodb-runner start &
+npm start
 ```
 
 **Dashboard**: http://0.0.0.0:4040 <br>
 **Server**: http://localhost:1337/parse
 
 ## MongoDB Install Mac OSX via homebrew
-```
+```sh
 $ brew update
 $ brew doctor
 $ brew install mongodb
@@ -59,20 +59,24 @@ http://launchd.info/
 
 
 ### Start MongoDB daemon
-```
+```sh
 $ mongod
 # or
 $ brew services start mongodb
 ```
 ### Enter Mongo CLI
-```
+```sh
 $ mongo
 ```
 
-### Install and run this project
+### Install
 
-```
+```sh
 $ npm install -g parse-server mongodb-runner
-$ mongodb-runner start
+```
+
+### Start mongo-runner
+```sh
+$ npm run mongodb-runner
 $ npm start
 ```

@@ -1,9 +1,0 @@
-{
-  "apps": [{
-    "serverURL": "mongodb://127.0.0.1:27017/parse",
-    "appId": "xXFPfvsRjjHsUimJT5nQmt5t6X9hfMK8NOuWk2pW",
-    "masterKey": "Jx5ywzxK9DWLjQbZJC0KPlyouBTqWjhp6ShIRoVS",
-    "appName": "Print3D",
-    "cloud": "./cloud/main"
-  }]
-}
