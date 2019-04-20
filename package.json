@@ -8,6 +8,7 @@
     "parse-dashboard": "parse-dashboard --config parse-dashboard-config.json"
   },
   "dependencies": {
-    "parse-server": "^2.0.0"
+    "lodash": "^4.17.11",
+    "parse-server": "^3.2.3"
   }
 }
